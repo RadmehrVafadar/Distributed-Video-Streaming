@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Video files
+videos/*.mp4
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
