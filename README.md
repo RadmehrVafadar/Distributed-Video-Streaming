@@ -5,27 +5,6 @@ This project demonstrates how to stream video frames from a producer to a consum
 
 ---
 
-## 📦 Project Structure
-
-Distributed-Video_streaming/
-│
-├── docker-compose.yml # Kafka + Zookeeper setup
-├── requirements.txt # Python dependencies
-├── README.md
-│
-├── producer/
-│ └── producer.py # Video → Kafka
-│
-├── consumer/
-│ └── consumer.py # Kafka → Flask video server
-│
-├── utils/
-│ └── config.py # Optional: Kafka topic & server configs
-│
-└── videos/ # Sample video files (optional)
-
----
-
 ## ⚡ Features
 
 - **Kafka-based streaming:** Frames are published to a Kafka topic and consumed in real-time.
