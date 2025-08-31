@@ -23,9 +23,6 @@ instance/
 *.log
 docker-compose.override.yml
 
-# Video files
-videos/*.mp4
-
 # IDE specific
 .vscode/
 .idea/
