@@ -27,7 +27,7 @@ This project demonstrates how to stream video frames from a producer to a consum
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/Distributed-Video_streaming.git
+git clone https://github.com/radmehr-vafadar/Distributed-Video_streaming.git
 cd Distributed-Video_streaming
 ```
 
