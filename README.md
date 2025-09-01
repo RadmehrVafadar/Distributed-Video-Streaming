@@ -90,3 +90,9 @@ Replace `producer.py` input with any video file.
 - WSL2 may not support direct webcam access; use a video file if needed.
 - Flask runs in development mode; for production, use a WSGI server (e.g., Gunicorn).
 - Docker ensures Kafka/Zookeeper runs consistently across environments.
+
+---
+
+![Demo](demo.gif)
+
+---
