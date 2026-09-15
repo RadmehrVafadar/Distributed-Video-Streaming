@@ -1,5 +1,7 @@
 # Distributed Video Streaming with Python and Kafka
 
+![Demo](demo.gif)
+
 A simple distributed video streaming pipeline using **Kafka**, **Python**, **OpenCV**, and **Flask**.  
 This project demonstrates how to stream video frames from a producer to a consumer over Kafka, and serve the video in a web browser.
 
@@ -90,9 +92,5 @@ Replace `producer.py` input with any video file.
 - WSL2 may not support direct webcam access; use a video file if needed.
 - Flask runs in development mode; for production, use a WSGI server (e.g., Gunicorn).
 - Docker ensures Kafka/Zookeeper runs consistently across environments.
-
----
-
-![Demo](demo.gif)
 
 ---
