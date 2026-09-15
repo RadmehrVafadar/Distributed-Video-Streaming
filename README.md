@@ -1,7 +1,5 @@
 # Distributed Video Streaming with Python and Kafka
 
-![Demo](demo.gif)
-
 A simple distributed video streaming pipeline using **Kafka**, **Python**, **OpenCV**, and **Flask**.  
 This project demonstrates how to stream video frames from a producer to a consumer over Kafka, and serve the video in a web browser.
 
@@ -13,7 +11,7 @@ This project demonstrates how to stream video frames from a producer to a consum
 - **Video sources:** Supports webcam or video file input.
 - **Web streaming:** Flask serves video frames to `http://localhost:5000/video`.
 - **Distributed-ready:** Can be extended with multiple producers/consumers and multi-broker Kafka clusters.
-
+![Demo](demo.gif)
 ---
 
 ## 🛠️ Prerequisites
